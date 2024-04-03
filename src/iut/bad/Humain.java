@@ -1,6 +1,6 @@
 package iut.bad;
 
-public class Humain {
+public class Humain implements Consommation{
 
 	protected String nom;
 	protected String prenom;
@@ -12,6 +12,14 @@ public class Humain {
 
 	public String toString() {
 		return nom + " " + prenom + " " + age;
+	}
+	
+	public void manger() {
+		throw new UnsupportedOperationException();
+	}
+	
+	public void boire() {
+		throw new UnsupportedOperationException();
 	}
 
 }
