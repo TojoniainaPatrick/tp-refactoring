@@ -21,5 +21,9 @@ public class Humain implements Consommation{
 	public void boire() {
 		throw new UnsupportedOperationException();
 	}
+	
+	public void ami(Humain autre) {
+		
+	}
 
 }
